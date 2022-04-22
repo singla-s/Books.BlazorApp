@@ -5,9 +5,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="Pages\myBooks.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="5.0.16" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="5.0.16" PrivateAssets="all" />
     <PackageReference Include="System.Net.Http.Json" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Pages\MyBooks.razor" />
   </ItemGroup>
 
 </Project>
